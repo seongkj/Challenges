@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Open+Sans:wght@400;600&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Balsamiq Sans", cursive;
+}
+body {
+  font-family: "Balsamiq Sans", cursive;
+  display: flex;
+}
+.music-box {
+  width: 360px;
+  height: 780px;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.music-icon {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 30px 25px;
+}
+
+.music-singer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.music-singer img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px 0px 30px 0px;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.2);
+}
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+h2 {
+  font-size: 15px;
+  color: gray;
+}
+.music-button {
+  display: flex;
+  justify-content: center;
+}
+button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+}
+button:first-child {
+  background-color: black;
+  color: white;
+  margin-right: 20px;
+}
+button:last-child {
+  background-color: white;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+}
+button:last-child i {
+  padding-right: 5px;
+}
+
+ul {
+  padding: 0px 10px;
+  margin-top: 30px;
+}
+li {
+  background-color: white;
+  display: flex;
+  padding: 15px 25px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  align-items: center;
+}
+li img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.music-info {
+  width: 150px;
+  padding: 0px 10px 0px 15px;
+}
+.music-info div:first-child {
+  color: gray;
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+li i {
+  font-size: 22px;
+  position: relative;
+  left: 75px;
+  color: rgba(0, 0, 0, 0.2);
+}
+.music-playlist li:nth-child(2) {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.play-state {
+  margin-left: 10px;
+  width: 340px;
+  height: 70px;
+  background-color: black;
+  display: flex;
+  padding: 0px 20px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  align-items: center;
+  position: fixed;
+  bottom: 40px;
+}
+.play-state i {
+  color: white;
+}
+.play-state i:nth-child(3) {
+  font-size: 25px;
+  margin: 0px 20px;
+}
+.play-state-info {
+  width: 150px;
+  padding: 0px 10px 0px 15px;
+  margin-right: 50px;
+}
+
+.play-state-info div:first-child {
+  color: gray;
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+.play-state-info div:last-child {
+  color: white;
+}
+
+.music-box:last-child .music-singer img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 20px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 60px;
+}
+.music-box:last-child .music-icon {
+  margin-bottom: 50px;
+}
+
+.music-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.music-time-bar {
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.music-time-bar div:first-child {
+  width: 180px;
+  height: 3px;
+  background-color: black;
+}
+.music-time-bar div:nth-child(2) {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: black;
+}
+.music-time-bar div:last-child {
+  width: 100px;
+  height: 3px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.music-time-text {
+  width: 100%;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 35px;
+}
+.page_two__main__controller {
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.page_two__main__controller i:nth-child(3) {
+  font-size: 50px;
+}
