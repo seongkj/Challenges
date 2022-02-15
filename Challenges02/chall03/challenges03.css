@@ -1,0 +1,12 @@
+form {
+  display: flex;
+}
+#game-form input {
+  margin: 24px 5px;
+}
+input {
+  margin: 20px 5px;
+}
+button {
+  margin: 20px 0px;
+}
